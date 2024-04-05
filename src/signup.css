@@ -1,0 +1,42 @@
+/* :root{
+    background-image: url('./assets/Dashboard.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image 
+    background-size:auto;
+    color:#fff; */
+    .background {
+      background-image: url('./assets/Dashboard.png');
+      background-size: cover;
+      color: #fff;
+      height:100vh;
+    }
+  .line-gradient-one {
+    position: relative;
+    height:0.51px;
+    background: #eee;
+    overflow:visible;
+  }
+  
+  .line-gradient-one::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    right:10;
+    height: 3px;
+    width: 10%;
+    background: linear-gradient(to right, #333, transparent);
+  }
+  .line-gradient-one {
+    position: relative;
+    height:0.51px;
+    background: #eee;
+    overflow: hidden;
+  }
+  
+  .line-gradient-one::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left:0;
+    height: 3px;
+    width: 30%;
+    background: linear-gradient(to left, #333, transparent);
+  }

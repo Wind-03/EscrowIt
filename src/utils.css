@@ -1,0 +1,6 @@
+.bg{
+    background-image: url('./assets/Dashboard.png');
+    background-size: cover;
+    color: #fff;
+    height:100vh;
+}
